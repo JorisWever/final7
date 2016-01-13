@@ -7,6 +7,7 @@ Netherlands in 2014', axes=TRUE)
 			greenest_entity <- shape[shape$NAME_2 == municip_avg,]
 			plot(greenest_entity, col='green', add=TRUE)
 			text(greenest_entity, labels=municip_avg, col='blue', pos=4)
+			?text
 		}
 		else if(level == 'Prov'){
 			plot(shape, col='grey', main= 'Greenest province in The 
@@ -46,7 +47,7 @@ Netherlands in January', axes=TRUE)
 Netherlands in August', axes=TRUE)
 				greenest_entity <- shape[shape$NAME_1 == province_aug,]
 				plot(greenest_entity, col='green', add=TRUE)
-				text(greenest_entity, labels=province_jan, col='blue', pos=2)
+				text(greenest_entity, labels=province_aug, col='blue', pos=2)
 			}
 		}
 	}

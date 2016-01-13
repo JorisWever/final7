@@ -14,7 +14,7 @@ source('R/getHighestNDVIcity.R')
 source('R/plotFunction.R')
 
 ## !!! Before running the script, make sure you updata the packages (takes some minutes)
-update.packages(checkBuilt=TRUE, ask = FALSE)
+# update.packages(checkBuilt=TRUE, ask = FALSE)
 
 # import data
 importFromUrl("https://github.com/GeoScripting-WUR/VectorRaster/raw/gh-pages/data/MODIS.zip")
